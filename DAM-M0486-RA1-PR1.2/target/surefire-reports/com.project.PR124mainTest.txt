@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.project.PR124mainTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in com.project.PR124mainTest
+com.project.PR124mainTest.testActualitzarNotaEstudiant  Time elapsed: 0.002 s  <<< ERROR!
+java.io.IOException: Descriptor de archivo erróneo
+	at com.project.PR124mainTest.testActualitzarNotaEstudiant(PR124mainTest.java:77)
+
+com.project.PR124mainTest.testActualitzarRegistreNoExistent  Time elapsed: 0.002 s  <<< ERROR!
+java.io.FileNotFoundException: /tmp/junit17491647074973404737/PR124estudiants.dat (No existe el archivo o el directorio)
+	at com.project.PR124mainTest.testActualitzarRegistreNoExistent(PR124mainTest.java:139)
+

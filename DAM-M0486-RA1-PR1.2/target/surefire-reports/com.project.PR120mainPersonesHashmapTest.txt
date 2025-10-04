@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.project.PR120mainPersonesHashmapTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in com.project.PR120mainPersonesHashmapTest
+com.project.PR120mainPersonesHashmapTest.testEscriureILlegirPersones  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.project.PR120mainPersonesHashmapTest.testEscriureILlegirPersones(PR120mainPersonesHashmapTest.java:53)
+
